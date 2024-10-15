@@ -4,6 +4,69 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PphvisaM5oh4CTyTfYml-1" value="絞り" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="440" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-2" value="シャッタ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="440" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-3" value="撮影素子" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="440" width="70" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-4" value="レンズ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="440" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-5" value="被写体&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-5" target="PphvisaM5oh4CTyTfYml-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="655" as="sourcePoint" />
+            <mxPoint x="440" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-7" value="アナログ信号回路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="440" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-8" value="デジタル信号回路" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571" y="440" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-9" value="カラーフィルタ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="51" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-10" value="記憶媒体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="651" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-4" target="PphvisaM5oh4CTyTfYml-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="650" as="sourcePoint" />
+            <mxPoint x="401" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-1" target="PphvisaM5oh4CTyTfYml-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="650" as="sourcePoint" />
+            <mxPoint x="401" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-2" target="PphvisaM5oh4CTyTfYml-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="650" as="sourcePoint" />
+            <mxPoint x="401" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-7" target="PphvisaM5oh4CTyTfYml-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="650" as="sourcePoint" />
+            <mxPoint x="401" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PphvisaM5oh4CTyTfYml-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PphvisaM5oh4CTyTfYml-8" target="PphvisaM5oh4CTyTfYml-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="650" as="sourcePoint" />
+            <mxPoint x="401" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
